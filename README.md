@@ -15,6 +15,7 @@ The topics below outline what you learn in the live session. After the live sess
 ## [Loops and Iterable Data Types](#loops-and-iterable-data-types)   
 
 - A loop is a block of code that repeats itself  
+- Typically has a [counter, condition, and iterator](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code#keep_me_in_the_loop) in addition to whatever code is inside the loop  
 - Loops are most useful when you want to run the same block of code on multiple values  
 - Loops, therefore, are a great tool to use with [iterable data types](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#iterable_examples)  
 - The iterable data types you should know of are strings and arrays  
@@ -23,10 +24,14 @@ The topics below outline what you learn in the live session. After the live sess
 - A `while` loop repeats a block of code **while** a condition is true and therefore the number of times it runs is not necessarily pre-defined    
 - A `for/in` loop is like a `for` loop but it's for looping through an object of key:value pairs, not for strings and arrays  
 - Here is [an example](https://www.w3schools.com/js/js_loop_for.asp) of how a `for` loop can transform your code  
-- Walk through a `for` loop step-by-step explaining what happens and how the syntax works  
+- Walk through a `for` loop step-by-step explaining what happens and how the syntax works 
+  -- Focus on using the index position to move through the array  
+  -- Having a solid understanding of [index positions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Indexed_collections#referring_to_array_elements) is critical   
+  -- ES6 has [built-in methods for looping](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Indexed_collections#array_methods) that you should know  
 - Here are [examples](https://www.w3schools.com/js/js_loop_while.asp) of how a `while` loop works with some explanation  
 - Walk through a `for` loop step-by-step explaining what happens and how the syntax works  
 - Here is [an example and description](https://www.w3schools.com/js/js_loop_forin.asp) of how a `for in` loop works  
+- [MDN's in-depth discussion](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration) is a good resource to learn more advanced ways of working with loops, like using `break` and `continue`    
 
 ## [Conditionals, Operators, and Expressions](#conditionals-operators-and-expressions)    
 
