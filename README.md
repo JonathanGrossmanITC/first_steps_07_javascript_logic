@@ -9,14 +9,14 @@ At the end of this lesson, you see a live coding example. The live coding sessio
 In this lesson, you learn:  
 
 - Hour 1: [Loops and Iterable Data Types](#loops-and-iterable-data-types)     
-- Hour 2: [Conditionals, Operators, and Expressions](#conditionals,-operators,-and-expressions)   
+- Hour 2: [Conditionals, Operators, and Expressions](#conditionals-operators-and-expressions)   
 - Hour 3: [Live Coding](#live-coding)  
 
 The topics below outline what you learn in the live session. After the live session, you can use this material as a resource for guided self-learning. This document will serve you as a roadmap for gaining repetition with the material that you learned during the live session.   
 
 ## [Loops and Iterable Data Types](#loops-and-iterable-data-types)   
 
-## [Conditionals, Operators, and Expressions](#conditionals,-operators,-and-expressions)    
+## [Conditionals, Operators, and Expressions](#conditionals-operators-and-expressions)    
 
 ## [Live Coding](#live-coding)   
 
