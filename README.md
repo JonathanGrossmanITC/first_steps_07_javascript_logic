@@ -51,9 +51,14 @@ The topics below outline what you learn in the live session. After the live sess
 - `else if` requires a condition like `if` does, but `else` does not require a condition; both require a corresponding block of code  
 - Here are [examples](https://www.w3schools.com/js/js_if_else.asp) of `else` and `else if` in conditional statements  
 
-### Comparison Operators  
+### Operators  
 
-### Logical Operators  
+- **Comparison** operators let you compare values to check, for instance, whether they are equal to one another, whether one is greater than or equal to the other, and more  
+- Look here for [syntax and examples](https://www.w3schools.com/js/js_comparisons.asp)  
+- **Logical** operators let you check whether something **and** something are true, something **or** something is true, or whether something is **not** true  
+- Look here for [syntax and examples](https://www.w3schools.com/js/js_comparisons.asp)  
+- You also can use **assignment** operators, **arithmetic** operators, and **string** operators to add logic to your code  
+- Look here for [syntax and examples](https://www.w3schools.com/js/js_operators.asp)  
 
 ### Expressions  
 
