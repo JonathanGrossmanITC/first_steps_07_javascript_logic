@@ -35,6 +35,28 @@ The topics below outline what you learn in the live session. After the live sess
 
 ## [Conditionals, Operators, and Expressions](#conditionals-operators-and-expressions)    
 
+- You oftentimes will use conditional statements, operators, and expressions inside loops  
+- You oftentimes will use loops inside conditional statement or in combination with operators and expressions  
+- You should have a good understanding of [Booleans](https://www.w3schools.com/js/js_booleans.asp) given that conditionals and operators check whether a certain condition is true or false  
+
+### Conditionals  
+
+- Conditional statements let you control when to perform certain actions  
+- In other works, you can check whether a condition exists before running a block of code  
+- To write conditional statements, you need to use `if` alone or in combintion with `else` and/or `else if`  
+- An `if` statement must be written with a condition and block of code following it  
+- If the condition is true, then the browser runs the corresponding block of code  
+- Here is [an example](https://www.w3schools.com/js/js_if_else.asp) of an `if` statement  
+- In combination with `if`, you can use `else` and/or `else if`  by chaining them to `if` or one another  
+- `else if` requires a condition like `if` does, but `else` does not require a condition; both require a corresponding block of code  
+- Here are [examples](https://www.w3schools.com/js/js_if_else.asp) of `else` and `else if` in conditional statements  
+
+### Comparison Operators  
+
+### Logical Operators  
+
+### Expressions  
+
 ## [Live Coding](#live-coding)   
 
 The live coding session continues working on the live code from the previous lessons. Here are the tasks:  
