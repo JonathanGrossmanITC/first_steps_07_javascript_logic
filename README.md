@@ -1,8 +1,6 @@
 # JavaScript Logic  
 
-Welcome to the seventh lesson! In this lesson, you learn about the Document Object Model, commonly known as **The DOM**. Using the DOM, you can interact with your HTML document using JavaScript. With JavaScript, you can access, modify, and otherwise interact with your HTML document and the elements inside it.
-
-In this lesson, first you learn about what the DOM is. Next, you will look under the hood to learn about the properties and methods available for the HTML document itself and for the elements within it. Using these methods and properties, you can add functionality to your web pages. For instance, you can change the text, add and remove styles, capture user input, and so much more.  
+Welcome to the seventh lesson! In this lesson, you learn about JavaScript logic. Adding logic to your JavaScript code will give your webpage functionality. You can add logic to your code using loops, conditionals, operators, and expressions. First, you will learn about looping through arrays and strings. Next, you will learn about adding expressions to your code using conditionals and operators. Using these tools alone and in combination with one another will give your application the ability to change based on the circumstances.
 
 At the end of this lesson, you see a live coding example. The live coding session reinforces what you learn in the lesson. This lesson also helps prepare you for making your personal portfolio site. The code from the session is included in this repository. You can use it however you like, but as with any code you get from someone else, make sure you understand it well enough to explain it to someone before putting it in your own projects.  
 
@@ -15,6 +13,20 @@ In this lesson, you learn:
 The topics below outline what you learn in the live session. After the live session, you can use this material as a resource for guided self-learning. This document will serve you as a roadmap for gaining repetition with the material that you learned during the live session.   
 
 ## [Loops and Iterable Data Types](#loops-and-iterable-data-types)   
+
+- A loop is a block of code that repeats itself  
+- Loops are most useful when you want to run the same block of code on multiple values  
+- Loops, therefore, are a great tool to use with [iterable data types](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#iterable_examples)  
+- The iterable data types you should know of are strings and arrays  
+- The types of loops for you to know about are `for` loops, `while` loops, and `for/in` loops    
+- A `for` loop repeats a block of code **for** a pre-defined number of times
+- A `while` loop repeats a block of code **while** a condition is true and therefore the number of times it runs is not necessarily pre-defined    
+- A `for/in` loop is like a `for` loop but it's for looping through an object of key:value pairs, not for strings and arrays  
+- Here is [an example](https://www.w3schools.com/js/js_loop_for.asp) of how a `for` loop can transform your code  
+- Walk through a `for` loop step-by-step explaining what happens and how the syntax works  
+- Here are [examples](https://www.w3schools.com/js/js_loop_while.asp) of how a `while` loop works with some explanation  
+- Walk through a `for` loop step-by-step explaining what happens and how the syntax works  
+- Here is [an example and description](https://www.w3schools.com/js/js_loop_forin.asp) of how a `for in` loop works  
 
 ## [Conditionals, Operators, and Expressions](#conditionals-operators-and-expressions)    
 
