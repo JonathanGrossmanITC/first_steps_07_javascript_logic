@@ -2,11 +2,11 @@
 
 Welcome to the seventh lesson! In this lesson, you learn about JavaScript logic. Adding logic to your JavaScript code will give your webpage functionality. You can add logic to your code using loops, conditionals, operators, and expressions. 
 
-First, you will learn about loops. Use loops to repeatedly run the same block of code on different values. Typically, you loop through arrays and strings. Next, you will learn about conditionals, operators, and expressions. Conditional statements let you add control to your code by telling it to run certain blocks on under certain circumstances. Operators let you compare, combine, and otherwise interact with data to modify data or make decisions. Expressions are blocks of code that return a value. For instance, a function always returns a value (by default it returns `undefined`) and is therefore an expression. 
+First, you will learn about loops. You use loops to run the same block of code multiple times but on a different value each time. Typically, you loop through arrays and strings. Next, you will learn about conditionals, operators, and expressions. Conditional statements let you add control to your code by telling it to run certain blocks under certain circumstances. Operators allow you to compare, combine, and otherwise interact with data to modify data or make decisions. Expressions are blocks of code that return a value. For instance, a function always returns a value (by default, it returns `undefined`) and is therefore an expression. 
 
 Using these tools alone and in combination with one another will give your application the ability to make decisions based on circumstances. 
 
-At the end of this lesson, you see a live coding example. The live coding session reinforces what you learn in the lesson. This lesson also helps prepare you for making your personal portfolio site. The code from the session is included in this repository. You can use it however you like, but as with any code you get from someone else, make sure you understand it well enough to explain it to someone before putting it in your own projects.  
+At the end of this lesson, you see a live coding example. The live coding session reinforces what you learn in the lesson. This lesson also helps prepare you for making your personal portfolio site. The code from this session is included in this repository. You can use it however you like, but as with any code you get from someone else, make sure you understand it well enough to explain it to someone before putting it in your own projects.  
 
 In this lesson, you learn:  
 
@@ -40,13 +40,13 @@ The topics below outline what you learn in the live session. After the live sess
 ## [Conditionals, Operators, and Expressions](#conditionals-operators-and-expressions)    
 
 - You oftentimes will use conditional statements, operators, and expressions inside loops  
-- You oftentimes will use loops inside conditional statement or in combination with operators and expressions  
+- You oftentimes will use loops inside a conditional statement or in combination with operators and expressions  
 - You should have a good understanding of [Booleans](https://www.w3schools.com/js/js_booleans.asp) given that conditionals and operators check whether a certain condition is true or false  
 
 ### Conditionals  
 
 - Conditional statements let you control when to perform certain actions  
-- In other works, you can check whether a condition exists before running a block of code  
+- In other words, you can check whether a condition exists before running a block of code  
 - To write conditional statements, you need to use `if` alone or in combination with `else` and/or `else if`  
 - An `if` statement must be written with a condition and block of code following it  
 - If the condition is true, then the browser runs the corresponding block of code  
@@ -72,9 +72,9 @@ The topics below outline what you learn in the live session. After the live sess
 - Instead, some blocks of code perform certain tasks but do not result in returning a value; those are not expressions  
 - An `if` block is an example of a statement  
 - A function with an explicit `return` statement is an example of an expression (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions#returning_a_formatted_number)  
- -- [Important Sidenote](https://stackoverflow.com/a/20915524): functions, by default, return the value `undefined` but can can override that value by explicitly declaring a `return` value; therefor, every function is technically an expression  
+ -- [Important Sidenote](https://stackoverflow.com/a/20915524): functions, by default, return the value `undefined` but you can override that value by explicitly declaring a `return` value; therefore, every function is technically an expression  
 - The value that an expression returns depends upon your circumstances  
-- Use conditional and operators in combination with one another and in combination with data types to write blocks of code that return a value  
+- Use conditionals and operators in combination with one another and in combination with data types to write blocks of code that return a value  
 - You will see more of this when you learn about functions in detail later  
 - This StackOverflow post has a good explanation of expressions vs statements](https://stackoverflow.com/questions/46351924/javascript-declarations-vs-expressions-vs-statements)
 - Here is a good article [explaining expressions](https://masteringjs.io/tutorials/fundamentals/expressions)  
@@ -84,12 +84,12 @@ The topics below outline what you learn in the live session. After the live sess
 The live coding session continues working on the live code from the previous lessons. Here are the tasks:  
 
 1. Find the form on your page and add a button to it  
-2. To the button add a click event listener and inside the corresponding function, console log the values for your four inputs when the user presses the button  
-3. Inside that function write an `if` statement that checks whether all four inputs have values  
+2. To the button, add a click event listener, and inside the corresponding function, console log the values for your four inputs when the user presses the button  
+3. Inside that function, write an `if` statement that checks whether all four inputs have values  
 4. If all four inputs have values, console log the phrase "Your form is complete" and also console log the values    
 5. Add an `else if` statement that checks whether at least one input has a value  
 6. If at least one input (but not all) has a value, console log the phrase "Your form needs more information" and also console log the names of the tags for which you need more information      
 7. Add an `else` statement  
 8. Console log in the `else` statement the phrase "Your form is empty"    
-9. Inside the `if` block, in addition to the console log, add a custom CSS class to the small image on the screen that changes the style of that image when the button is clicked    
+9. Inside the `if` block, in addition to the console log, add a custom CSS class to the small image on the screen that changes the style of that image when you click the button    
 
