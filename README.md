@@ -28,7 +28,7 @@ The topics below outline what you learn in the live session. After the live sess
 - A `while` loop repeats a block of code **while** a condition is true and therefore the number of times it runs is not necessarily pre-defined    
 - A `for/in` loop is like a `for` loop but it's for looping through an object of key:value pairs, not for strings and arrays  
 - Here is [an example](https://www.w3schools.com/js/js_loop_for.asp) of how a `for` loop can transform your code  
-- Walk through a `for` loop step-by-step explaining what happens and how the syntax works 
+- Walk through a `for` loop step-by-step explaining what happens and how the syntax works   
   -- Focus on using the index position to move through the array  
   -- Having a solid understanding of [index positions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Indexed_collections#referring_to_array_elements) is critical   
   -- ES6 has [built-in methods for looping](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Indexed_collections#array_methods) that you should know  
@@ -71,7 +71,7 @@ The topics below outline what you learn in the live session. After the live sess
 - An expression is different from other statements because not all blocks of code result in a value 
 - Instead, some blocks of code perform certain tasks but do not result in returning a value; those are not expressions  
 - An `if` block is an example of a statement  
-- A function with an explicit `return` statement is an example of an expression (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions#returning_a_formatted_number)  
+- A function with an explicit `return` statement is an example of an [expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions#returning_a_formatted_number)  
  -- [Important Sidenote](https://stackoverflow.com/a/20915524): functions, by default, return the value `undefined` but you can override that value by explicitly declaring a `return` value; therefore, every function is technically an expression  
 - The value that an expression returns depends upon your circumstances  
 - Use conditionals and operators in combination with one another and in combination with data types to write blocks of code that return a value  
